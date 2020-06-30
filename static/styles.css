@@ -5,15 +5,15 @@ html, body {
 
 text.labels {
     text-anchor : middle;
-    font-size : 13px;
+    font-size : 12px;
     fill : white;
     font-weight : bold;
 }
 
 #play {
-    width: inherit;
+    width: 100%;
     margin:auto;
-    height:inherit;
+    height:100%;
 }
 
 
