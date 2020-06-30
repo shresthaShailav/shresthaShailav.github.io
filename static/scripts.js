@@ -37,18 +37,19 @@ const el = document.querySelector(".middle");
 const bbox = el.getBoundingClientRect();
 
 
-/*
+
 const center = {
     x: bbox.left + (bbox.width / 2),
     y: bbox.top + (bbox.height / 2)
 };
-*/
 
 
+/*
 const center = {
     x: 350,
     y: 300
 };
+*/
 
 
 console.log(center);
@@ -72,7 +73,7 @@ var nodes = svg.selectAll("circle")
                 .data(dataset.nodes)
                 .enter()
                 .append("circle")
-                .attr("r", 15)
+                .attr("r", 18)
                 .style("fill", function(data, index) { return colors(index); })
                 .call(d3.drag() 
                         .on("start", dragStarted)

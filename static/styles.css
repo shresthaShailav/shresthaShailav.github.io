@@ -11,9 +11,9 @@ text.labels {
 }
 
 #play {
-    width: 700px;
+    width: inherit;
     margin:auto;
-    height:700px;
+    height:inherit;
 }
 
 
