@@ -36,6 +36,7 @@ var svg = d3.select("#play")
 const el = document.querySelector(".middle");
 const bbox = el.getBoundingClientRect();
 
+
 /*
 const center = {
     x: bbox.left + (bbox.width / 2),
@@ -43,10 +44,12 @@ const center = {
 };
 */
 
+
 const center = {
-    x: 1100/2,
+    x: 350,
     y: 300
 };
+
 
 console.log(center);
 
